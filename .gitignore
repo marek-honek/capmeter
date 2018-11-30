@@ -1,0 +1,13 @@
+# Build
+*.o
+*.d
+*.hex
+*.bin
+*.elf
+*.lss
+*.lst
+*.map
+
+# Atom
+.tags*
+.ropeproject
