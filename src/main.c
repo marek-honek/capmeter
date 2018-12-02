@@ -340,7 +340,7 @@ void Time_to_capacity (void)
     {
         /*  Counting capacity in microF (uF),
             Time_constant is twice bigger than actual time constant */
-        capacity = (Time_constant/15624.76158)/(2*3.5);   /*15624.76158 TC1
+        capacity = (Time_constant/15625)/(2*3.5);   /*15624.76158 TC1
                                                         ticks per one second*/
     }
 }
